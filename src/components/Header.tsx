@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import { useState } from "react";
 import { Logo } from "./ui/logo";
 
+
 interface HeaderProps {
   onNavigate: (page: string) => void;
   cartCount: number;
