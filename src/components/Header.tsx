@@ -1,8 +1,6 @@
 import { ShoppingBag, Heart, Menu, X, User } from "lucide-react";
 import { Button } from "./ui/button";
 import { useState } from "react";
-import { Logo } from "./ui/logo";
-
 
 interface HeaderProps {
   onNavigate: (page: string) => void;
@@ -23,8 +21,13 @@ export function Header({ onNavigate, cartCount, wishlistCount = 0 }: HeaderProps
             className="flex flex-col items-start group"
           >
             <div className="md:flex items-center gap-3   ">
-              <Logo className="" />
-
+              <div style={{ width: 60, height: 32 }}>
+                <img
+                  src={"/images/logo.png"}
+                  alt={"logo"}
+                  className={`object-contain w-full h-full `}
+                />
+              </div>
               <div className="hidden md:flex flex-col ">
                 <span className="font-serif text-2xl md:text-3xl text-[#2c2420] tracking-tight transition-colors group-hover:text-[#d4a574]">
                   Mani Artisan
