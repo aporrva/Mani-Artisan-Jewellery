@@ -1,7 +1,6 @@
 
-  # E-commerce website design
+  # Mani Artisan Jewellery website design
 
-  This is a code bundle for E-commerce website design. The original project is available at https://www.figma.com/design/TvlJwZzRnR2BaQdxWQglYX/E-commerce-website-design.
 
   ## Running the code
 
